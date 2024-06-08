@@ -1,5 +1,6 @@
 ## 240608
 * mobile 디자인 완성
+* 마크업 작업
 * 퍼블리싱 가이드 작성
 * common.css 작성
 * index.html 작성
