@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+/*** 폰트 설정 ***/
+/* 'Pretendard', sans-serif */
+@import url(./pretendard-subset.css);
+
+/* 'GmarketSansMedium', sans-serif */
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+}
+
+/* MangoGrotesque-*/
+@import url(../styles/MangoGrotesque.css);
+
+/*** 변수 설정 ***/
+:root {
+  /* fonts */
+  --primary-font-en: 'MangoGrotesque', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --primary-font-ko1: 'GmarketSansMedium', -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  --primary-font-ko2: 'Pretendard', -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+
+  /* web font size */
+  --web-title-size-xxl: 450px;
+  --web-title-size-xl: 300px;
+  --web-title-size-lg: 200px;
+  --web-title-size-md: 160px;
+  --web-title-size-sm: 120px;
+  --web-title-size-xs: 100px;
+  --web-title-size-xxs: 80px;
+
+  --web-desc-size-xxl: 70px;
+  --web-desc-size-xl: 64px;
+  --web-desc-size-lg: 48px;
+  --web-desc-size-md: 40px;
+  --web-desc-size-sm: 32px;
+  --web-desc-size-xs: 24px;
+  --web-desc-size-xxs: 20px;
+
+  /* mobile font size */
+  --mobile-title-size-xxl: 100px;
+  --mobile-title-size-xl: 80px;
+  --mobile-title-size-lg: 64px;
+  --mobile-title-size-md: 40px;
+  --mobile-title-size-sm: 36px;
+  --mobile-title-size-xs: 32px;
+  --mobile-title-size-xxs: 28px;
+
+  --mobile-desc-size-xxl: 24px;
+  --mobile-desc-size-xl: 20px;
+  --mobile-desc-size-lg: 16px;
+  --mobile-desc-size-md: 14px;
+  --mobile-desc-size-sm: 12px;
+
+  /* color */
+  --bg-color-ivory: #FFF5DA;
+  --bg-color-lightblue: #EAF3F5;
+  --bg-color-darkblue: #132231;
+
+  --color-yellow: #FFCE6C;
+  --color-gold: #EFB43E;
+  --color-skyblue: #4BACDB;
+  --color-blue: #065EA2;
+  --color-white: #fff;
+  --color-gray: #A4A4A4;
+  --color-black: #333;
+
+  /* 드래그
+  ::selection {
+    background-color: #d1b3b3;
+    color: #fff;
+  }
+
+  스크롤바
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #d1b3b3;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--list-color2);
+  } */
+
+    /* 공통 */
+    /* .side-padding {
+      padding: 0 62px;
+    } */
+  
+    .flex-wrapper {
+      display: flex;
+    }
+  
+    .grid-wrapper {
+      display: grid;
+    }
+  
+    .block-wrapper {
+      display: block;
+    }
+}

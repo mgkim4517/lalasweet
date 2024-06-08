@@ -1,0 +1,32 @@
+/* MangoGrotesque-*/
+@font-face {
+    font-family: 'MangoGrotesque';
+    src: url('../fonts/MangoGrotesque-Black.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'MangoGrotesque';
+    src: url('../fonts/MangoGrotesque-ExtraBold.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 800;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'MangoGrotesque';
+    src: url('../fonts/MangoGrotesque-Bold.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'MangoGrotesque';
+    src: url('../fonts/MangoGrotesque-SemiBold.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+}
