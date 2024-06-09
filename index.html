@@ -15,6 +15,7 @@
   <!-- 공통된 style -->
   <link rel="stylesheet" href="./assets/styles/common.css">
   <!-- 이 페이지만의 style -->
+   <link rel="stylesheet" href="./index.css">
   <!-- jq -->
   <script src="./assets/jquery-3.7.1.min.js"></script>
   <!-- plugIn js -->
@@ -24,16 +25,16 @@
 
 <body>
   <header>
-    <div>
+    <div class="contact-box">
       <ul>
-        <li><img src="" alt=""></li>
+        <li><img src="./images/m-arrow.svg" alt=""></li>
         <li>CONTACT@LALASWEET.KR</li>
       </ul>
       <h2>CONTACT</h2>
     </div>
-    <h1>로고</h1>
+    <h1><a href="#"><img src="./images/logo.svg" alt=""></a></h1>
     <h2>MENU</h2>
-    <ul>
+    <ul class="gnb">
       <li>SHOP</li>
       <li>FLAVOR</li>
       <li>CHANNEL</li>
@@ -45,28 +46,32 @@
   </header>
   
   <main>
-    <section>
+    <section class="video-container">
+      <video autoplay loop muted>
+        <source src="./images/lalasweet.mp4" type="video/mp4">
+        브라우저가 비디오 태그를 지원하지 않습니다.
+    </video>
       <h2>LALASWEET</h2>
     </section>
   
-    <section>
+    <section class="main-container">
       <h3>MELON BAR • CHOCO BAR • BBANG SAND • PINT • MONAKA • MELON BAR • CHOCO BAR • BBANG SAND • PINT • MONAKA •</h3>
       <h2>LOW SUGAR<br>ICE CREAM</h2>
       <h3>BARS - BBANG SAND - PINTS - MONAKA</h3>
-      <div>
+      <div class="row-line-box">
         <span></span>
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <div>
+      <div class="moving-text">
         <p>LOW SUGAR - <img src="" alt=""> - ICE CREAM - <img src="" alt=""> - LOW SUGAR - <img src="" alt=""> - ICE CREAM - <img src="" alt=""> - LOW SUGAR - <img src="" alt=""> - ICE CREAM - <img src="" alt=""> - LOW SUGAR - <img src="" alt=""> - ICE CREAM - <img src="" alt=""></p>
         <h2>LALASWEET - LALASWEET - LALASWEET - LALASWEET - LALASWEET</h2>
         <p>LOW SUGAR - <img src="" alt=""> - ICE CREAM - <img src="" alt=""> - LOW SUGAR - <img src="" alt=""> - ICE CREAM - <img src="" alt=""> - LOW SUGAR - <img src="" alt=""> - ICE CREAM - <img src="" alt=""> - LOW SUGAR - <img src="" alt=""> - ICE CREAM - <img src="" alt=""></p>
       </div>
     </section>
   
-    <section>
+    <section class="about-container">
       <h3>LOW SUGAR ICE CREAM<br>기분 전환이 필요할 때<br>마음 편히 라라스윗<br>오늘은 마음 편히 달콤하세요</h3>
       <h4>건강하게 즐기는 달콤한 한 스푼</h4>
       <p>달콤함이라는 단어에는 편안하고 포근하다는 느낌까지 함께 들어 있죠. 라라스윗은 이 달콤함을 좀 더 건강하게 즐길 수 있도록 칼로리가 낮은 아이스크림을 만드는 브랜드입니다.</p>
@@ -77,27 +82,27 @@
         <p>BUY NOW</p>
         <img src="" alt="">
       </a>
-      <div>
+      <div class="col-line-box">
         <span></span>
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <div>
+      <div class="point-img">
         <img src="" alt="">
-        <div></div>
+        <div class="point-color"></div>
       </div>
     </section>
   
-    <section>
+    <section class="info-container">
       <h2>OUR</h2>
       <div>
         <h2>SWEET DELIGHTS</h2>
         <h4>달콤한 행복을 선물하는 라라스윗<br>가벼운 칼로리로 부담없이 즐기세요<br>기분 좋은 시원함과 달콤함을 선물해 드릴게요</h4>
       </div>
-      <div>
+      <div class="info-content">
         <img src="" alt="">
-        <div>
+        <div class="info-box">
           <h4>1 FLAVOR</h4>
           <h3>LOW SUGAR<br>MELON BAR ICE CREAM</h3>
           <h4>설탕만 쏙 뺀 저당 멜론바</h4>
@@ -105,39 +110,39 @@
           <p>맛에도 신경 썼지만 유크림 함량 20%로 원료에서 타협하지 않았어요</p>
           <p>설탕은 줄이고 대체 감미료로 단맛을 더해 칼로리 부담이 적어요</p>
           <p>가벼운 칼로리로 부담 없이 즐기세요 (칼로리 80kcal, 당류 3g)</p>
-          <div>
+          <div class="info-btn">
             <p>+ BUY</p>
             <p>VIEW DETAILS</p>
             <img src="" alt="">
           </div>
         </div>
       </div>
-      <div>
+      <div class="swiper-btn">
         <img src="" alt="">
         <img src="" alt="">
       </div>
     </section>
     
-    <section>
-      <div>
+    <section class="ad-container">
+      <div class="ad-main-title">
         <h2>MAKE THE </h2>
         <h2>WORLD SWEETER</h2>
       </div>
-      <div>
+      <div class="ad-sub-title">
         <h2>세상을 더욱 달콤하게, </h2>
         <h2>라라스윗</h2>
       </div>
-      <div>
+      <div class="ad-desc1">
         <p>설탕을 덜어내 가벼워진 칼로리 / </p>
         <p>착한 원재료 / </p>
       </div>
-      <div>
+      <div class="ad-desc2">
         <p>건강한 달콤함 /</p>
         <p>유크림을 더해 더 쫀득한 식감 /</p>
       </div>
       <p>국내산 생우유의 고소하고 진한 맛</p>
       <a href="#">
-        <div>
+        <div class="ad-btn">
           <p>LET'S GO</p>
           <p>TASTE IT NOW</p>
         </div>
@@ -145,8 +150,8 @@
       </a>
     </section>
   
-    <section>
-      <div>
+    <section class="support-container">
+      <div class="support-title">
         <h2>WITHOUT MELTING</h2>
         <h2>AND SAFELY</h2>
       </div>
@@ -160,12 +165,12 @@
   </main>
 
   <footer>
-    <div>
+    <div class="footer-text1">
       <p>(주)라라스윗｜사업자 등록번호 : 262-88-01226</p>
       <p>통신판매업 신고번호 : 제 2020-서울강남-00234호</p>
       <p>고객센터 : 1533-3312 (평일 9~18시 운영 / 주말 및 공휴일 휴무)</p>
     </div>
-    <div>
+    <div class="footer-text2">
       <p>디자인/퍼블리싱 : KIM MIN-GYEONG / zouxy@naver.com</p>
       <p>2024 ⓒ KIM MIN-GYEONG All right reserved</p>
     </div>

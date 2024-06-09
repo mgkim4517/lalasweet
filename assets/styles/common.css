@@ -10,13 +10,13 @@
   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
 }
 
-/* MangoGrotesque-*/
-@import url(../styles/MangoGrotesque.css);
+/* "Mango Grotesque" */
+@import url(./MangoGrotesque.css);
 
 /*** 변수 설정 ***/
 :root {
   /* fonts */
-  --primary-font-en: 'MangoGrotesque', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --primary-font-en: "Mango Grotesque", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --primary-font-ko1: 'GmarketSansMedium', -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
   --primary-font-ko2: 'Pretendard', -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
 
