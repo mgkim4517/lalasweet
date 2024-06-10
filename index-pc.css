@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+@media screen and (min-width: 768px) {
+  header .contact-box {
+    display: block;
+    border: 1px solid var(--color-blue);
+  }
+
+  header .contact-box ul li svg {
+    rotate: 180deg;
+    padding: 0 5px;
+  }
+
+  header .contact-box ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .contact-box ul li h3 {
+    font-size: var(--web-desc-size-xs);
+    font-weight: 600;
+    color: var(--color-blue);
+    width: 50%;
+    border-left: 1px solid var(--color-blue);
+    padding: 5px 10px 0 10px;
+  }
+
+  header .contact-box h2 {
+    border-top: 1px solid var(--color-blue);
+    font-size: var(--web-title-size-xxs);
+    font-weight: 800;
+    color: var(--color-blue);
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0 auto;
+  }
+}

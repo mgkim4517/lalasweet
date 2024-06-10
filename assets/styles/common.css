@@ -4,11 +4,9 @@
 /* 'Pretendard', sans-serif */
 @import url(./pretendard-subset.css);
 
-/* 'GmarketSansMedium', sans-serif */
-@font-face {
-  font-family: 'GmarketSansMedium';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-}
+/* 'GmarketSans', sans-serif */
+/* weight 300 : light / 500 : medium / 700 : bold */
+@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
 
 /* "Mango Grotesque" */
 @import url(./MangoGrotesque.css);
@@ -17,7 +15,7 @@
 :root {
   /* fonts */
   --primary-font-en: "Mango Grotesque", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  --primary-font-ko1: 'GmarketSansMedium', -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  --primary-font-ko1: 'GmarketSans', -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
   --primary-font-ko2: 'Pretendard', -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
 
   /* web font size */
@@ -64,6 +62,8 @@
   --color-white: #fff;
   --color-gray: #A4A4A4;
   --color-black: #333;
+
+  --screen: 876px;
 
   /* 드래그
   ::selection {

@@ -1,3 +1,7 @@
+## 240610
+* index.css 완성
+* index-pc.css 작업
+
 ## 240609
 * index.css 작업
 
