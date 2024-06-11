@@ -1,5 +1,9 @@
 /* font-family: "Mango Grotesque" */
-@font-face {
+/* @font-face {
     font-family: "Mango Grotesque";
     src: url("https://db.onlinewebfonts.com/t/0d7c90bf2d5c8dcc4fa27a5ba6cbad81.woff2")format("woff2");
+} */
+@font-face {
+    font-family: "Mango-Grotesque";
+    src: url('../fonts/Mango Grotesque-VF.woff2') format('woff2');
 }
