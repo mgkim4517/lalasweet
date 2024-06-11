@@ -60,7 +60,7 @@ main .video-container h2 {
   color: var(--color-blue);
   font-size: var(--mobile-title-size-xl);
   transform: rotate(-3deg);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /*** main-container ***/
@@ -87,13 +87,13 @@ main .main-container h2 {
   font-size: var(--mobile-title-size-xxl);
   line-height: 0.78;
   padding: 100px 12px 0 12px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 main .main-container h3 {
   color: var(--color-blue);
   font-size: var(--mobile-title-size-xs);
-  font-weight: 600;
+  font-weight: 500;
   padding: 37px 12px 33px 12px;
 }
 
