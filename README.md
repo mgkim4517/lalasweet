@@ -1,7 +1,16 @@
+## 240612
+* index.css 수정
+* index-pc.css 완성
+* index-pc.css 작업 도중 info-content의 구조가 잘못 되었다는 사실을 발견해 구조 수정
+* index.js 작업
+* gsap의 scrollTrigger 플러그인을 사용해 parallax text 애니메이션 구현
+* gsap의 scrollTrigger 플러그인을 사용해 row-line-box의 span들이 스크롤에 따라 좌우로 이동하며 기울기가 조절되는 애니메이션 구현
+* gsap의 scrollTrigger 플러그인을 사용해 col-line-box의 span들이 스크롤에 따라 상하로 이동하는 애니메이션 구현
+
 ## 240611
 * index.css 수정
 * index-pc.css 작업
-* pc 버전에서 윈도우 사이즈 조절 시 글자 크기 때문에 레이아웃이 망가지는 문제 발생 -> 글자 크기를 px -> vw로 바꿈
+* pc 버전에서 윈도우 사이즈 조절 시 폰트 사이즈 때문에 레이아웃이 망가지는 문제 발생 -> 글자 크기를 px에서 vw로 변경해 해결
 
 ## 240610
 * index.css 완성
