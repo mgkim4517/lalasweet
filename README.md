@@ -1,7 +1,7 @@
 ## 240612
 * index.css 수정
 * index-pc.css 완성
-* index-pc.css 작업 도중 info-content의 구조가 잘못 되었다는 사실을 발견해 구조 수정
+* css 작업 도중 info-content의 구조가 잘못되었다는 사실을 발견해 구조 수정
 * index.js 작업
 * gsap의 scrollTrigger 플러그인을 사용해 parallax text 애니메이션 구현
 * gsap의 scrollTrigger 플러그인을 사용해 row-line-box의 span들이 스크롤에 따라 좌우로 이동하며 기울기가 조절되는 애니메이션 구현
