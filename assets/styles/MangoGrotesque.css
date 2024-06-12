@@ -3,7 +3,55 @@
     font-family: "Mango Grotesque";
     src: url("https://db.onlinewebfonts.com/t/0d7c90bf2d5c8dcc4fa27a5ba6cbad81.woff2")format("woff2");
 } */
-@font-face {
+/* @font-face {
     font-family: "Mango Grotesque";
     src: url('../fonts/MangoGrotesque-VF.woff2') format('woff2');
-}
+} */
+
+@font-face {
+    font-family: "Mango Grotesque";
+    src: local("Mango Grotesque Black"), url(../fonts/MangoGrotesque-Black.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 900;
+    font-size: swap;
+  }
+
+  @font-face {
+    font-family: "Mango Grotesque";
+    src: local("Mango Grotesque ExtraBold"), url(../fonts/MangoGrotesque-ExtraBold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 800;
+    font-size: swap;
+  }
+
+  @font-face {
+    font-family: "Mango Grotesque";
+    src: local("Mango Grotesque Bold"), url(../fonts/MangoGrotesque-Bold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 700;
+    font-size: swap;
+  }
+
+  @font-face {
+    font-family: "Mango Grotesque";
+    src: local("Mango Grotesque SemiBold"), url(../fonts/MangoGrotesque-SemiBold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 600;
+    font-size: swap;
+  }
+
+  @font-face {
+    font-family: "Mango Grotesque";
+    src: local("Mango Grotesque Medium"), url(../fonts/MangoGrotesque-Medium.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 500;
+    font-size: swap;
+  }
+
+  @font-face {
+    font-family: "Mango Grotesque";
+    src: local("Mango Grotesque Regular"), url(../fonts/MangoGrotesque-Regular.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 400;
+    font-size: swap;
+  }
