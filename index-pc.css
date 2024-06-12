@@ -152,6 +152,8 @@
   }
 
   main .about-container .about-box {
+    /* width: 100%; */
+  /* width: 55%; */
   }
 
   main .about-container .about-box .about-title {
@@ -211,8 +213,7 @@
 
   main .about-container .point-img {
     position: relative;
-    /* min-width: 700px; */
-    width: 100%;
+    /* width: 45%; */
     min-width: 650px;
   }
 
