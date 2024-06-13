@@ -1,3 +1,9 @@
+## 240613
+* index.css, index-pc.css 수정
+* swiper 플러그인을 사용해 info-container section의 스와이퍼 구현
+* gnb 메뉴 구현
+* github 이동 영역 변경
+
 ## 240612
 * index.css 수정
 * index-pc.css 완성
@@ -6,6 +12,7 @@
 * gsap의 scrollTrigger 플러그인을 사용해 parallax text 애니메이션 구현
 * gsap의 scrollTrigger 플러그인을 사용해 row-line-box의 span들이 스크롤에 따라 좌우로 이동하며 기울기가 조절되는 애니메이션 구현
 * gsap의 scrollTrigger 플러그인을 사용해 col-line-box의 span들이 스크롤에 따라 상하로 이동하는 애니메이션 구현
+* gsap의 scrollTrigger 플러그인을 사용해 point-color가 스크롤에 따라 상하로 이동하는 애니메이션 구현
 
 ## 240611
 * index.css 수정
@@ -29,6 +36,7 @@
 ## 240607
 * pc 디자인 완성
 * mobile 디자인 시작
+* 사용하고자 하는 이미지가 저화질밖에 없는 문제 발생 -> 이미지 고화질 변환 사이트를 이용해 이미지의 화질을 올려 해결
 
 ## 240606
 * pc 디자인

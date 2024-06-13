@@ -1,6 +1,29 @@
 // a 태그 성격 제거
 $('a[href="#"]').on('click', e => e.preventDefault());
 
+// gnb 메뉴
+  // gnb-menu 요소 선택
+  var gnbMenu = document.querySelector('.gnb-menu');
+  
+  // gnb 요소 선택
+  var gnb = document.querySelector('.gnb');
+  
+  // gnb-menu를 클릭할 때마다 toggleGnbOn 함수 실행
+  gnbMenu.addEventListener('click', toggleGnbOn);
+  
+  // gnb 요소를 클릭할 때마다 removeGnbOn 함수 실행
+  gnb.addEventListener('click', removeGnbOn);
+
+  // gnb-menu를 클릭하여 .on 클래스를 toggle하는 함수
+  function toggleGnbOn() {
+    gnb.classList.toggle('on');
+  }
+  
+  // gnb 요소를 클릭하여 .on 클래스를 제거하는 함수
+  function removeGnbOn() {
+    gnb.classList.remove('on');
+  }
+
 // ***** rotate .row-line-span *****
 gsap.set('.row-line-box span', { xPercent: -50 });
 
@@ -118,3 +141,25 @@ textContainers.forEach((element, index) => {
     ease: "none"
   });
 });
+
+// 스와이퍼
+    // Assign some jquery elements we'll need
+    let $swiper = $(".swiper-container");
+    let $bottomSlide = null; // Slide whose content gets 'extracted' and placed
+    // into a fixed position for animation purposes
+    let $bottomSlideContent = null; // Slide content that gets passed between the
+    // panning slide stack and the position 'behind'
+    // the stack, needed for correct animation style
+
+    let mySwiper = new Swiper(".swiper-container", {
+      spaceBetween: 0,
+      slidesPerView: 1,
+      centeredSlides: true,
+      roundLengths: true,
+      loop: true,
+      // loopAdditionalSlides: 30,
+      navigation: {
+        prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+      }
+    });
