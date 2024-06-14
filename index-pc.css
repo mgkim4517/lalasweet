@@ -86,7 +86,7 @@
   /***** main *****/
   /*** video-container ***/
   main .video-container video {
-    width: 94vw;
+    width: 93vw;
   }
 
   main .video-container h2 {
@@ -114,13 +114,13 @@
   }
 
   main .main-container h3 {
-    font-size: 8.5vw;
+    font-size: 8.3vw;
     font-weight: 900;
     padding: 98px 70px 84px 70px;
   }
 
   main .main-container .row-line-box {
-    width: calc(100% - 100px);
+    width: calc(100% - 140px);
     height: 103px;
     margin: 0 auto;
     /* width: 100%; */

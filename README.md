@@ -1,8 +1,14 @@
+## 240614
+* about-buy-box, ad-buy-box, support-container a hover 이벤트 구현
+* favicon 작업
+* open graph 작업
+
 ## 240613
 * index.css, index-pc.css 수정
 * swiper 플러그인을 사용해 info-container section의 스와이퍼 구현
 * gnb 메뉴 구현
 * github 이동 영역 변경
+* index.js 완성
 
 ## 240612
 * index.css 수정

@@ -63,39 +63,22 @@
   --color-gray: #A4A4A4;
   --color-black: #333;
   
-  /* 드래그
+  /* 드래그 */
   ::selection {
-    background-color: #d1b3b3;
-    color: #fff;
+    background-color: #f5d980;
+    color: var(--color-blue);
   }
 
-  스크롤바
+  /* 스크롤바 */
   ::-webkit-scrollbar {
-    width: 15px;
+    width: 12px;
   }
 
   ::-webkit-scrollbar-track {
-    background-color: #d1b3b3;
+    background-color: var(--bg-color-ivory);
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: var(--list-color2);
-  } */
-
-    /* 공통 */
-    /* .side-padding {
-      padding: 0 62px;
-    } */
-  
-    .flex-wrapper {
-      display: flex;
-    }
-  
-    .grid-wrapper {
-      display: grid;
-    }
-  
-    .block-wrapper {
-      display: block;
-    }
+    background-color: var(--color-blue);
+  }
 }
