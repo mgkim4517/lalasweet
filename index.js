@@ -3,10 +3,10 @@ $('a[href="#"]').on('click', e => e.preventDefault());
 
 // gnb 메뉴
   // gnb-menu 요소 선택
-  var gnbMenu = document.querySelector('.gnb-menu');
+  let gnbMenu = document.querySelector('.gnb-menu');
   
   // gnb 요소 선택
-  var gnb = document.querySelector('.gnb');
+  let gnb = document.querySelector('.gnb');
   
   // gnb-menu를 클릭할 때마다 toggleGnbOn 함수 실행
   gnbMenu.addEventListener('click', toggleGnbOn);
@@ -27,7 +27,7 @@ $('a[href="#"]').on('click', e => e.preventDefault());
 // ***** rotate .row-line-span *****
 gsap.set('.row-line-box span', { xPercent: -50 });
 
-var rotate = gsap.timeline({
+let rotate = gsap.timeline({
   scrollTrigger: {
     trigger: ".row-line-box",
     scrub: true,
@@ -152,14 +152,15 @@ textContainers.forEach((element, index) => {
     // the stack, needed for correct animation style
 
     let mySwiper = new Swiper(".swiper-container", {
-      spaceBetween: 0,
       slidesPerView: 1,
       centeredSlides: true,
       roundLengths: true,
       loop: true,
-      // loopAdditionalSlides: 30,
       navigation: {
         prevEl: ".swiper-button-prev",
         nextEl: ".swiper-button-next",
+      },
+      autoplay: {
+        delay: 3000,
       }
     });

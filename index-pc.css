@@ -1,11 +1,11 @@
 @charset "utf-8";
 /***** pc ver. *****/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   /***** header *****/
   header {
     font-family: var(--primary-font-en);
     width: 100%;
-    padding: 34px 70px 0 70px;
+    padding: 34px 70px 0 30px;
     position: relative;
   }
 
@@ -108,13 +108,14 @@
   }
 
   main .main-container h2 {
-    font-size: 23vw;
+    font-size: var(--web-title-size-xxl);
     font-weight: 900;
     padding: 0 70px;
+    width: 100%;
   }
 
   main .main-container h3 {
-    font-size: 8.3vw;
+    font-size: var(--web-title-size-md);
     font-weight: 900;
     padding: 98px 70px 84px 70px;
   }
@@ -173,15 +174,19 @@
     position: relative;
   }
 
+  main .about-container .about-box {
+    width: 100%;
+  }
+
   main .about-container .about-box .about-title {
     /* font-size: var(--web-title-size-sm); */
-    font-size: 6vw;
+    font-size: var(--web-title-size-sm);
     font-weight: 700;
     line-height: 0.7;
   }
   main .about-container .about-box h3 {
     /* font-size: var(--web-title-size-xxs); */
-    font-size: 3.5vw;
+    font-size: var(--web-title-size-xxs);
     font-weight: bold;
     line-height: 0.9;
     padding-top: 20px;
@@ -203,13 +208,13 @@
 
   main .about-container .about-buy-box {
     width: 90%;
-    max-width: 800px;
+    /* max-width: 800px; */
     margin-bottom: 20vw;
   }
 
   main .about-container .point-img {
-    width: 100%;
     max-width: 100%;
+    min-width: 500px;
     margin-bottom: 100px;
     }
 
@@ -218,7 +223,7 @@
   }
 
   main .about-container .about-buy-box a p {
-    font-size: 4vw;
+    font-size: var(--web-title-size-xxs);
     font-weight: 700;
     padding-top: 24px;
     line-height: 0.7;
@@ -248,7 +253,7 @@
   }
 
   main .info-container h2 {
-    font-size: 17vw;
+    font-size: var(--web-title-size-xl);
     font-weight: 900;
     padding: 100px 70px 0 70px;
   }
@@ -261,7 +266,7 @@
   }
 
   main .info-container .info-desc h2 {
-    font-size: 17vw;
+    font-size: var(--web-title-size-xl);
     font-weight: 900;
     padding-top: 0;
   }
@@ -320,14 +325,14 @@
   }
 
   main .info-container .swiper-container .info-wrapper .info-content .info-box .info-btn .buy-btn {
-    font-size: 3vw;
+    font-size: var(--web-desc-size-lg);
     font-weight: 800;
     display: grid;
     padding-top: 0.5vw;
   }
 
   main .info-container .swiper-container .info-wrapper .info-content .info-box .info-btn .detail-btn {
-    font-size: 4.2vw;
+    font-size: var(--web-desc-size-xl);
     font-weight: 800;
     padding-top: 0.6vw;
     border-left: 3px solid var(--color-blue);
@@ -338,14 +343,16 @@
     height: 1.5vw;
   }
 
-  main .info-container .swiper-container .info-wrapper .swiper-btn {
+  main .info-container .swiper-container .swiper-btn {
     padding-right: 70px;
-    gap: 0;
-    bottom: 15vw;
-  }
+    gap: 25px;
+    bottom: -18vw;
+    right: 20px;
+    }
+    
 
   main .info-container .swiper-container .swiper-btn img {
-    width: 100px;
+    width: 80px;
   }
 
   /*** ad-container ***/
@@ -358,7 +365,7 @@
   }
 
   main .ad-container .ad-main-title h2 {
-    font-size: 10vw;
+    font-size: var(--web-title-size-lg);
     font-weight: 800;
     padding-right: 18px;
   }
@@ -368,7 +375,7 @@
   }
 
   main .ad-container .ad-sub-title h2 {
-    font-size: 4.5vw;
+    font-size: var(--web-title-size-xs);
     font-weight: 700;
     padding-right: 18px;
   }
@@ -381,7 +388,7 @@
   main .ad-container .ad-desc1 p,
   main .ad-container .ad-desc2 p,
   main .ad-container p {
-    font-size: 2.5vw;
+    font-size: var( --web-desc-size-lg);
     font-weight: 300;
     padding-right: 10px;
   }
@@ -402,7 +409,7 @@
   }
 
   main .ad-container .ad-buy-box a .ad-btn p {
-    font-size: 3.5vw;
+    font-size: var(--web-title-size-xxs);
     font-weight: 800;
     padding-left: 0.1vw;
   }
@@ -422,7 +429,7 @@
   }
 
   main .support-container .support-title h2 {
-    font-size: 10vw;
+    font-size: var(--web-title-size-lg);
     font-weight: 700;
     padding-right: 1.5vw;
   }
@@ -470,7 +477,45 @@
 
   footer .footer-text1 p,
   footer .footer-text2 p {
-    font-size: 0.75vw;
+    font-size: 14px;
     padding: 0 5px;
+  }
+}
+
+/*
+스마트폰 세로: 0px ~ 480px
+스마트폰 가로, 태블릿 : 481px ~ 768px
+태블릿 가로, 노트북 : 769px ~ 1279px
+데스크탑 : 1280px ~
+*/
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  main .main-container .scroll-text {
+    font-size: 100px;
+    padding: 20px 0 5px 0;
+    line-height: 0.7;
+  }
+
+  main .main-container h2 {
+    font-size: 210px;
+  }
+
+  main .main-container h3 {
+    font-size: 58px;
+  }
+
+  main .about-container .about-box .about-title {
+    font-size: 105px;
+  }
+
+  main .about-container .about-box h3 {
+    font-size: 70px;
+  }
+
+  main .info-container h2 {
+    font-size: 250px;
+  }
+
+  main .info-container .info-desc h2 {
+    font-size: 250px;
   }
 }
