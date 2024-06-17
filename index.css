@@ -201,6 +201,12 @@ main .about-container {
   position: relative;
   display: grid;
   grid-template-rows: 1fr 0.9fr;
+  overflow: hidden;
+  width: 100%;
+}
+
+main .about-container .about-box {
+  width: 100%;
 }
 
 main .about-container .about-box .about-title {
@@ -211,7 +217,8 @@ main .about-container .about-box .about-title {
 }
 
 main .about-container .about-box h3 {
-  font-size: var(--mobile-title-size-xxs);
+  /* font-size: var(--mobile-title-size-xxs); */
+  font-size: 26px;
   font-family: var(--primary-font-ko1);
   font-weight: bold;
   white-space: nowrap;

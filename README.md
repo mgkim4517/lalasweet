@@ -1,3 +1,16 @@
+```
+## Style Guide
+1. 케밥 표기법 사용
+* main-container
+2. 주석
+/***** header, main, footer *****/, <!-- ***** header, main, footer ***** -->
+/*** section ***/, <!-- *** section *** -->
+/* 그 외 */, <!-- * 그 외 * -->
+```
+# LALASWEET 작업 일지
+## 240617
+* 반응형 웹에서 폰트 사이즈 단위로 vw를 사용하면 안 된다는 것을 알게 되어 다시 px로 바꾸고 미디어 쿼리를 세밀하게 설정하여 수정함
+
 ## 240614
 * about-buy-box, ad-buy-box, support-container a hover 이벤트 구현
 * favicon 작업

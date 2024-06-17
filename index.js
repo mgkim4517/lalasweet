@@ -48,7 +48,7 @@ var translate = gsap.timeline({
     scrub: true,
   }
 }).to('.col-line-box span', {
-  y: '-5vw',
+  y: '-10vw',
   duration: 1,
   ease: 'none',
 });
@@ -87,7 +87,7 @@ scrollTextContainers.forEach((element, index) => {
       start: "0px bottom", // 요소가 화면 아래에서 시작하도록 설정
       end: "bottom top"
     },
-    x: '-80vw',
+    x: '-100vw',
     transformOrigin: "left center", 
     ease: "none"
   });
