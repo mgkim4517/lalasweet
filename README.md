@@ -1,11 +1,28 @@
+## Design Guide
 ```
-## Style Guide
-1. 케밥 표기법 사용
-* main-container
+1. KEYWORD
+#깔끔한 #트렌디한 #개성있는
+2. COLOR
+#065EA2 , #4BACDB , #FFCE6C
+- 라라스윗의 로고 컬러를 사용해 브랜드 아이덴티티를 살렸습니다.
+- 시원한 느낌을 주는 파란색과 노란색을 함께 사용하여 아이스크림을 연상시키고자 했습니다.
+3. FONT
+- 영문 폰트 : Mango Grotesque
+- 한글 메인 : 지마켓 산스
+- 한글 서브: 프리텐다드
+```
+## Publishing Guide
+```
+1. 통일된 식별자명을 위해 케밥 표기법 사용
+ex) main-container
+
 2. 주석
 /***** header, main, footer *****/, <!-- ***** header, main, footer ***** -->
 /*** section ***/, <!-- *** section *** -->
 /* 그 외 */, <!-- * 그 외 * -->
+
+3. class명 표기법
+container > wrapper > content > box
 ```
 # LALASWEET 작업 일지
 ## 240617
