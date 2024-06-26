@@ -154,7 +154,8 @@
   }
 
   main .main-container .moving-box .moving-text p img {
-    padding-top: 7px;
+    padding-top: 4px;
+    width: 30px;
   }
 
   main .main-container .moving-box .moving-text .parallax-text-main {
