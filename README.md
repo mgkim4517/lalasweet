@@ -11,7 +11,7 @@
 3. FONT
 - 영문 폰트 : Mango Grotesque
 - 한글 메인 : 지마켓 산스
-- 한글 서브: 프리텐다드
+- 한글 서브 : 프리텐다드
 ```
 ## Publishing Guide
 ```
