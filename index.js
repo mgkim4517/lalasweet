@@ -42,7 +42,7 @@ let rotate = gsap.timeline({
 // ***** translate .col-line-span *****
 gsap.set('.col-line-box span', { yPercent: -50 });
 
-var translate = gsap.timeline({
+let translate = gsap.timeline({
   scrollTrigger: {
     trigger: ".col-line-box",
     scrub: true,
@@ -56,7 +56,7 @@ var translate = gsap.timeline({
 // ***** point-img .point-color *****
 gsap.set('.point-img .point-color', { yPercent: 20 });
 
-var translate = gsap.timeline({
+let translates = gsap.timeline({
   scrollTrigger: {
     trigger: ".point-img",
     scrub: true,
