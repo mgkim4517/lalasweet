@@ -6,7 +6,7 @@
 
 /* 'GmarketSans', sans-serif */
 /* weight 300 : light / 500 : medium / 700 : bold */
-@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
+@import url(./GmarketSans.css);
 
 /* "Mango Grotesque" */
 @import url(./MangoGrotesque.css);
@@ -15,7 +15,7 @@
 :root {
   /* fonts */
   --primary-font-en: "Mango Grotesque", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  --primary-font-ko1: 'GmarketSans', -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+  --primary-font-ko1: 'Gmarket Sans', -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
   --primary-font-ko2: 'Pretendard', -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
 
   /* web font size */
